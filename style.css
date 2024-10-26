@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.headers {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.tag {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 10px;
+}
+
+.contact img {
+    vertical-align: middle;
+}
+
+.contact a {
+    color: #000;
+    text-decoration: none;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 20px;
+}
+
+.data {
+    margin-top: 20px;
+}
+
+.experiences,
+.skills,
+.projects {
+    margin-bottom: 20px;
+}
+
+.exphead,
+.skillhead,
+.projecthead {
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.companyhead {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.years {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.roles {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.roledata,
+.skilldata,
+.projectdata {
+    list-style: none;
+    padding: 0;
+}
+
+.roletxt,
+.skilltxt,
+.projectname {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.infodata,
+.projecttxt {
+    margin-bottom: 10px;
+}
+
+.link {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin: 20px 0;
+}
+
+.download-btn {
+    text-align: center;
+    margin: 20px;
+}
+
+.download-btn button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-btn button:hover {
+    background-color: #555;
+}
